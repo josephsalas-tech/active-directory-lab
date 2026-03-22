@@ -1,0 +1,43 @@
+
+# Scenario 02 – Accoutn Lockout Password Reset
+
+## Ticket Summary
+Brief description of the issue being simulated.
+
+## Environment
+- Domain Controller:
+- Client Machine:
+- User Account:
+- Ticket System: osTicket with LDAP
+
+## Objective
+What this scenario is meant to test and resolve.
+
+## Trigger Method
+How the issue was intentionally created.
+
+## Symptoms Observed
+What the user sees and what the technician verifies.
+
+## Ticket Workflow
+- Ticket submitted
+- Ticket assigned
+- Investigation started
+- Resolution documented
+- Ticket closed
+
+## Resolution Steps
+1.
+2.
+3.
+
+## Validation
+How the fix was confirmed.
+
+## Screenshots to Capture
+- 
+- 
+- 
+
+## Lessons Learned
+What this scenario demonstrates in a real IT support environment.
