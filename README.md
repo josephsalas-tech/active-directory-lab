@@ -117,8 +117,8 @@ A help desk ticket was created to simulate the user requesting assistance after 
 - **Assigned Department:** IT Support
 
 ### Example Ticket Description
-```text
-I am unable to sign into my domain account after entering the wrong password multiple times. Please assist with unlocking my account and resetting my password if necessary.
+> “I am unable to log into my computer after entering the wrong password multiple times.”
+---
 
 
 
