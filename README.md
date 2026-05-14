@@ -52,8 +52,15 @@ Each scenario represents a **real-world IT support ticket** and is documented in
 
 Status: In Progress
 
----
+--- 
 
+### Scenario 02 – account lockout & password reset
+📄 Documentation: `scenarios/01-user-and-ou-structure.md`  
+📸 Screenshots: `screenshots/aduc/`
+
+Status: In Progress
+
+---
 
 
 ### Scenario 03 – Password Policy via Group Policy
