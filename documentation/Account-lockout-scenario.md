@@ -133,15 +133,12 @@ The account becomes unlocked and the user is able to authenticate again using th
 
 ### Internal Technician Note
 
-```text
-Verified the user account was locked in Active Directory following repeated failed sign-in attempts. Unlocked the account and reset the password. Configured the account to require a password change at next login.
-```
+> "Verified the user account was locked in Active Directory following repeated failed sign-in attempts. Unlocked the account and reset the password. Configured the account to require a password change at next login."
 
 ### User Resolution Response
 
-```text
-Your account has been unlocked and your password was reset successfully. Please log in using the temporary password provided and create a new password when prompted.
-```
+> "Your account has been unlocked and your password was reset successfully. Please log in using the temporary password provided and create a new password when prompted."
+
 
 ### Final Ticket Status
 - Resolved
