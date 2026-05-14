@@ -55,7 +55,7 @@ Status: In Progress
 --- 
 
 ### Scenario 02 – account lockout & password reset
-📄 Documentation: documentation/scenario 2  
+📄 Documentation: [Account Lockout Scenario](documentation/scenario 2.md)
 📸 Screenshots: `screenshots/aduc/`
 
 Status: In Progress
