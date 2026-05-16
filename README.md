@@ -35,7 +35,7 @@ Each scenario represents a **real-world IT support ticket** and is documented in
 
 | Scenario | Description | Status |
 |--------|------------|--------|
-| 01 | User and OU Structure | In Progress |
+| 01 | Windows Server Deployment and Active Directory OU Structure | Complete |
 | 02 | Password Reset & Account Unlock | Complete |
 | 03 | Password Policy via Group Policy | Planned |
 | 04 | Network Drive Mapping via GPO | Planned |
@@ -46,7 +46,7 @@ Each scenario represents a **real-world IT support ticket** and is documented in
 
 ## Implemented Scenarios
 
-### Scenario 01 – User and OU Structure
+### Scenario 01 – Windows Server Deployment and Active Directory OU Structure
 📄 Documentation: [User and OU Structure](documentation/AD-OU-structure.md) 
 
 Status: In Progress
