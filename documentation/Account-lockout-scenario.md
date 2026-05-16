@@ -66,7 +66,7 @@ A help desk ticket was created to simulate the user requesting assistance after 
 ---
 
 ## Screenshots to Capture
-- [Ticket submission page](screenshots/ticket-creation.png)
+- [Ticket submission page](screenshots/ ticket creation.png)
 - Open ticket in osTicket dashboard
 - Ticket details page
 
