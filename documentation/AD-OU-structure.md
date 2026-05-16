@@ -1,29 +1,150 @@
-# Active Directory Organizational Structure
+# Scenario 01 – Windows Server Deployment & Active Directory OU Structure
 
-## Overview
+## Scenario Overview
 
-This section documents the Organizational Unit (OU) structure used within the Active Directory lab environment. The structure was designed to simulate a small school district or educational IT environment with separated users, computers, and administrative groups.
+This scenario documents the initial deployment and configuration of a Windows Server virtual machine used as the Domain Controller for the Active Directory lab environment. The project includes the installation of Active Directory Domain Services (AD DS), promotion of the server to a Domain Controller, and the creation of an Organizational Unit (OU) structure designed to simulate a school district or enterprise environment.
 
-The goal of this structure is to improve:
-- User organization
-- Group Policy management
-- Administrative delegation
-- Scalability
-- Troubleshooting efficiency
+This scenario serves as the foundation for all future Active Directory, Group Policy, and help desk ticket simulations within the homelab.
 
 ---
 
-# Domain Information
+# Project Objectives
+
+The goals of this scenario were to:
+
+- Deploy a Windows Server virtual machine within Proxmox
+- Install and configure Active Directory Domain Services
+- Promote the server to a Domain Controller
+- Create a functional Active Directory domain
+- Design a structured OU hierarchy
+- Prepare the environment for future Group Policy and user management scenarios
+
+---
+
+# Environment
+
+| System | Purpose |
+|--------|---------|
+| Proxmox VE | Virtualization platform |
+| Windows Server VM | Domain Controller |
+| Active Directory Domain Services | Centralized identity management |
+| Windows 10 Pro VM | Domain-joined client machine |
+
+---
+
+# Infrastructure Overview
+
+## Virtualization Platform
+The Windows Server environment was deployed as a virtual machine hosted within the Proxmox homelab infrastructure.
+
+---
+
+## Domain Information
 
 | Component | Value |
 |----------|------|
 | Domain Name | JS3homelab.local |
+| Server Role | Domain Controller |
 | Directory Service | Active Directory Domain Services |
-| Environment Type | Educational / School District Simulation |
 
 ---
 
-# Organizational Unit Structure
+# Phase 1 – Windows Server VM Deployment
+
+## Steps Performed
+1. Created a new Windows Server virtual machine within Proxmox
+2. Allocated virtual hardware resources:
+   - CPU
+   - Memory
+   - Storage
+   - Network adapter
+3. Mounted Windows Server installation media
+4. Installed Windows Server operating system
+5. Configured initial administrative settings
+
+---
+
+## Screenshots to Capture
+
+### Proxmox
+- VM creation wizard
+- Virtual hardware allocation
+- Windows Server VM overview
+
+---
+
+### Windows Server
+- Windows Server installation
+- Initial desktop setup
+- Server Manager dashboard
+
+---
+
+# Phase 2 – Active Directory Domain Services Installation
+
+## Steps Performed
+1. Opened **Server Manager**
+2. Added the following role:
+   - Active Directory Domain Services (AD DS)
+3. Installed required dependencies
+4. Verified successful role installation
+
+---
+
+## Expected Result
+The server becomes ready for Domain Controller promotion.
+
+---
+
+## Screenshots to Capture
+- Server Manager
+- Add Roles and Features Wizard
+- AD DS installation confirmation
+
+---
+
+# Phase 3 – Domain Controller Promotion
+
+## Steps Performed
+1. Promoted the server to a Domain Controller
+2. Created a new forest:
+   - `JS3homelab.local`
+3. Configured:
+   - DNS services
+   - Directory Services Restore Mode (DSRM)
+4. Completed Domain Controller setup
+5. Restarted the server
+
+---
+
+## Validation Performed
+- Verified successful domain creation
+- Confirmed DNS functionality
+- Verified Active Directory administrative tools installed successfully
+
+---
+
+## Screenshots to Capture
+- Domain Controller promotion wizard
+- Domain configuration page
+- Successful promotion confirmation
+- Post-restart login screen
+
+---
+
+# Phase 4 – Organizational Unit (OU) Structure Creation
+
+## OU Design Goals
+
+The OU structure was designed to simulate:
+- Educational IT environments
+- Administrative separation
+- Scalable Group Policy management
+- User and computer organization
+
+---
+
+## Organizational Unit Structure
 
 ```text
 JS3homelab.local
@@ -49,94 +170,84 @@ JS3homelab.local
 
 ---
 
-# OU Design Goals
+# Phase 5 – User and Group Preparation
 
-## Faculty OU
-Used to organize:
-- Teacher accounts
-- Administrative staff
-- Faculty workstations
-
-This allows policies and permissions to be applied separately from student systems.
+## Administrative Tasks Performed
+- Created test user accounts
+- Created security groups
+- Organized users into appropriate OUs
+- Prepared structure for future Group Policy scenarios
 
 ---
 
-## Students OU
-Used for:
-- Student user accounts
-- Classroom or lab systems
-- Restricted policy testing
+## Screenshots to Capture
 
-This separation simulates common school district access control practices.
-
----
-
-## Computers OU
-Used to organize domain-joined systems by device type and role.
-
-Examples:
-- Administrative systems
-- Student lab machines
-- Shared workstations
-
----
-
-## IT_Admins OU
-Contains privileged administrative accounts used for:
-- Domain management
-- User administration
-- Group Policy configuration
-- Infrastructure maintenance
-
----
-
-# Group Policy Integration
-
-The OU structure was designed to support future:
-- Password policies
-- Login restrictions
-- Drive mapping
-- Software deployment
-- Administrative controls
-
-This structure simplifies targeted Group Policy application.
-
----
-
-# Screenshots to Capture
-
-## Active Directory Users and Computers (ADUC)
+### Active Directory Users and Computers (ADUC)
 - Full OU structure
 - Faculty OU expanded
 - Students OU expanded
-- Computer organization
 - Security groups
+- Test users
+
+---
+
+# Validation & Testing
+
+## Validation Performed
+- Confirmed Active Directory functionality
+- Verified OU creation
+- Verified administrative tools operation
+- Confirmed domain accessibility
+- Confirmed readiness for client domain join
 
 ---
 
 # Skills Demonstrated
 
-- Active Directory organization
-- Organizational Unit planning
-- Educational IT structure simulation
-- User and computer management
-- Group Policy planning
-- Administrative structure design
+- Windows Server deployment
+- Proxmox virtualization
+- Active Directory Domain Services installation
+- Domain Controller promotion
+- DNS configuration
+- Organizational Unit design
+- User and group management
+- Enterprise identity infrastructure planning
 
 ---
 
-# Why This Matters
+# Troubleshooting Notes
 
-Proper Active Directory organization is critical in enterprise and educational environments. A clean OU structure improves:
-- Scalability
-- Troubleshooting
-- Policy management
-- Administrative efficiency
+## Key Observations
+- DNS configuration is critical for Active Directory functionality
+- Proper OU organization simplifies future Group Policy management
+- Virtualization allows safe testing and rollback during deployment
+- Initial server planning significantly improves scalability
 
-This project demonstrates foundational identity and access management concepts commonly used in school district and enterprise IT environments.
+---
+
+# Lessons Learned
+
+This scenario reinforced the importance of proper infrastructure planning before implementing identity management and Group Policy systems. Creating a clean OU hierarchy early simplifies administration, troubleshooting, and future policy deployment.
+
+---
+
+# Why This Scenario Matters
+
+Active Directory remains a foundational technology in enterprise and educational IT environments. This project demonstrates practical experience with:
+- Identity infrastructure deployment
+- Windows Server administration
+- Centralized authentication systems
+- Organizational planning
+- Enterprise directory services
+
+These concepts are directly relevant to:
+- Help desk technician roles
+- School district IT support
+- Systems administration
+- MSP environments
 
 ---
 
 # Resume / LinkedIn Summary
 
-Designed and implemented a structured Active Directory Organizational Unit (OU) hierarchy to simulate user, computer, and administrative management practices used in educational and enterprise IT environments.
+Deployed and configured a Windows Server virtual machine within Proxmox, installed Active Directory Domain Services, promoted the system to a Domain Controller, and designed a structured Organizational Unit hierarchy to simulate enterprise and educational IT environments.
