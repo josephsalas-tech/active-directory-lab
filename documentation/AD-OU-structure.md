@@ -67,16 +67,14 @@ The Windows Server environment was deployed as a virtual machine hosted within t
 ## Screenshots to Capture
 
 ### Proxmox
-- VM creation wizard
-- Virtual hardware allocation
-- Windows Server VM overview
+- [Windows Server VM overview](screenshots/windows-server-install-complete.png)
 
 ---
 
 ### Windows Server
-- Windows Server installation
+- [Windows Server installation](screenshots/windows-server-static-ip.png)
 - Initial desktop setup
-- Server Manager dashboard
+- [Server Manager dashboard](screenshots/windows-server-DC-DNS-and-LDAP-ready.png)
 
 ---
 
