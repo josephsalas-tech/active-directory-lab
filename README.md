@@ -49,7 +49,7 @@ Each scenario represents a **real-world IT support ticket** and is documented in
 ### Scenario 01 – Windows Server Deployment and Active Directory OU Structure
 📄 Documentation: [User and OU Structure](documentation/AD-OU-structure.md) 
 
-Status: In Progress
+Status: Completed
 
 --- 
 
