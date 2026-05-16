@@ -73,7 +73,6 @@ The Windows Server environment was deployed as a virtual machine hosted within t
 
 ### Windows Server
 - [Windows Server installation](screenshots/windows-server-static-ip.png)
-- Initial desktop setup
 - [Server Manager dashboard](screenshots/windows-server-DC-DNS-and-LDAP-ready.png)
 
 ---
