@@ -46,7 +46,7 @@ The objective of this scenario is to simulate a real-world account lockout event
 The user account becomes locked due to the configured domain account lockout policy.
 ---
 ## Screenshots to Capture
-- Failed login attempts on Windows client
+- [Failed login attempts on Windows client]
 - Account lockout message at login screen
 - Expected event viewer ID for lockout 
 ---
@@ -97,7 +97,7 @@ The account becomes unlocked and the user is able to authenticate again using th
 ---
 
 ## Screenshots to Capture
-- ADUC showing user account
+- [ADUC showing user account]
 - User properties window
 - Account unlock section
 - Password reset dialog
