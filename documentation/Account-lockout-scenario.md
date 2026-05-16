@@ -119,8 +119,8 @@ The account becomes unlocked and the user is able to authenticate again using th
 ---
 
 ## Screenshots to Capture
-- Password change prompt
-- Successful login to desktop
+- [Password change prompt](screenshots/password-change.png)
+- [Successful login to desktop](screenshots/testuserlockout-log-back-in.png)
 
 ---
 
