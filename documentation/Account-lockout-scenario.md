@@ -47,7 +47,7 @@ The user account becomes locked due to the configured domain account lockout pol
 ---
 ## Screenshots to Capture
 - [Account lockout message at login screen](screenshots/acct-lockout-windows.png)
-- [Expected event viewer ID for lockout]()
+- [Expected event viewer ID for lockout](screenshots/acct-lockout-ID.png)
 ---
 
 # Phase 2 – Ticket Creation in osTicket
@@ -96,10 +96,8 @@ The account becomes unlocked and the user is able to authenticate again using th
 ---
 
 ## Screenshots to Capture
-- [ADUC showing user account]
-- User properties window
-- Account unlock section
-- Password reset dialog
+- [User properties window](screenshots/testuserlockout-prop.png)
+- [Account unlock & pass reset](screenshots/acct-pass-reset.jpg)
 
 ---
 
