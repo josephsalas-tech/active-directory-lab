@@ -46,7 +46,7 @@ The objective of this scenario is to simulate a real-world account lockout event
 The user account becomes locked due to the configured domain account lockout policy.
 ---
 ## Screenshots to Capture
-- [Failed login attempts on Windows client]
+- [Failed login attempts on Windows client](screenshots/acct-lockout-windows.png)
 - Account lockout message at login screen
 - Expected event viewer ID for lockout 
 ---
