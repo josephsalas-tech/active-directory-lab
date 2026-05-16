@@ -36,7 +36,7 @@ Each scenario represents a **real-world IT support ticket** and is documented in
 | Scenario | Description | Status |
 |--------|------------|--------|
 | 01 | User and OU Structure | In Progress |
-| 02 | Password Reset & Account Unlock | Planned |
+| 02 | Password Reset & Account Unlock | Complete |
 | 03 | Password Policy via Group Policy | Planned |
 | 04 | Network Drive Mapping via GPO | Planned |
 | 05 | Account Disable / Enable | Planned |
