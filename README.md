@@ -47,8 +47,7 @@ Each scenario represents a **real-world IT support ticket** and is documented in
 ## Implemented Scenarios
 
 ### Scenario 01 – User and OU Structure
-📄 Documentation: `scenarios/01-user-and-ou-structure.md`  
-📸 Screenshots: `screenshots/aduc/`
+📄 Documentation: [User and OU Structire](documentation/AD-OU-structure.md) 
 
 Status: In Progress
 
