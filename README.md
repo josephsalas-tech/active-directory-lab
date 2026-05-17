@@ -62,10 +62,9 @@ Status: Completed
 
 
 ### Scenario 03 – Password Policy via Group Policy
-📄 Documentation: `scenarios/03-password-policy-gpo.md`  
-📸 Screenshots: `screenshots/gpo/`
+📄 Documentation: `[password policy via GPO](documentation/password-policy-via-GPO.md)
 
-Status: Planned
+Status: Complete
 
 ---
 
