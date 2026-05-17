@@ -26,7 +26,7 @@ The lab follows a simple but scalable domain design.
 - Centralized authentication and DNS
 
 📌 Diagram:
-- [Homelab Topology](screenshots/domain-topology.png)
+- [Homelab Topology](documentation/screenshots/domain-topology.png)
 
 ---
 
