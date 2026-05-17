@@ -139,8 +139,7 @@ gpupdate /force
 ---
 
 ## Screenshots to Capture
-- `gpupdate /force` command
-- Successful Group Policy update confirmation
+- [`gpupdate /force` command/Successful Group Policy update confirmation](screenshots/applying-gpo-password-policy.png)
 
 ---
 
