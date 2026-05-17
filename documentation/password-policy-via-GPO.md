@@ -76,12 +76,6 @@ Computer Configuration
 
 ---
 
-## Screenshots to Capture
-- Group Policy Management Console
-- Default Domain Policy selection
-
----
-
 # Phase 2 – Configuring Password Policy
 
 ## Steps Performed
@@ -102,9 +96,7 @@ All domain users become subject to the configured password requirements.
 ---
 
 ## Screenshots to Capture
-- Password Policy settings
-- Complexity requirement enabled
-- Minimum password length configuration
+- [Password Policy settings/Complexity requirement enabled/Minimum password length configuration](screenshots/applying-gpo-password-policy.png)
 
 ---
 
